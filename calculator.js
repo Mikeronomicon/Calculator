@@ -1,4 +1,5 @@
 var a, b, result;
+
      function setValues()
      {
           a = Number(document.getElementById("a").value);
