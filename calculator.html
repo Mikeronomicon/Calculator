@@ -1,4 +1,10 @@
-var a, b, result;
+<!doctype html>
+<html lang=”en”>
+<head>
+               <meta charset=”UTF-8″>
+               <title>A Simple Calculator Using JavaScript</title>
+               <script>
+                              var a, b, result;
                               function setValues()
                               {
                                              a = Number(document.getElementById(“a”).value);
@@ -29,3 +35,14 @@ var a, b, result;
                                              result =a/b;
                                              alert(“The result is =” + result);
                               }
+               </script>
+</head>
+<body>
+               <input id=”a” type=”text” title=”Puts your first input” />
+               <input id=”b” type=”text” title=”Puts your second input” />
+               <input type=”button” onclick=”addition()” value=”Addition”/>
+               <input type=”button” onclick=”subtraction()” value=”Subtraction”/>
+               <input type=”button” onclick=”multiplication()” value=”Multiplication”/>
+               <input type=”button” onclick=”division()” value=”Division”/>
+</body>
+</html>
