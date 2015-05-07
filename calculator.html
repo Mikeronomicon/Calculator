@@ -3,46 +3,15 @@
 <head>
                <meta charset=”UTF-8″>
                <title>A Simple Calculator Using JavaScript</title>
-               <script>
-                              var a, b, result;
-                              function setValues()
-                              {
-                                             a = Number(document.getElementById(“a”).value);
-                                             b = Number(document.getElementById(“b”).value);
-                              }
- 
-                              function addition()
-                              {
-                                             setValues();
-                                             result = a+b;
-                                             alert(“The result is = ” + result);
-                              }
-                              function subtraction()
-                              {
-                                             setValues();
-                                             result =a-b;
-                                             alert(“The result is =” + result);
-                              }
-                              function multiplication()
-                              {
-                                             setValues();
-                                             result =a*b;
-                                             alert(“The result is =” + result);
-                              }
-                              function division()
-                              {
-                                             setValues();
-                                             result =a/b;
-                                             alert(“The result is =” + result);
-                              }
-               </script>
+
 </head>
 <body>
-               <input id=”a” type=”text” title=”Puts your first input” />
-               <input id=”b” type=”text” title=”Puts your second input” />
-               <input type=”button” onclick=”addition()” value=”Addition”/>
-               <input type=”button” onclick=”subtraction()” value=”Subtraction”/>
-               <input type=”button” onclick=”multiplication()” value=”Multiplication”/>
-               <input type=”button” onclick=”division()” value=”Division”/>
+<input id="a" type="text" name="First input" value="">
+<input id="b" type="text" name="Second input" value="">
+<input type="button" name="+" onclick="addition()”" value=+>
+<input type="button" name="-" onclick="subtraction()" value=->
+<input type="button" name="x" onclick="multiplication()" value=x>
+<input type="button" name="/" onclick="division()" value=/>
+
 </body>
 </html>
