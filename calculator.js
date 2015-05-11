@@ -35,4 +35,3 @@ var a, b, result;
           document.getElementById("a").value = "";
           document.getElementById("a").value = "";
      }
-     
